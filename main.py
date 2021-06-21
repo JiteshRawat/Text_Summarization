@@ -85,7 +85,7 @@ def generate_summary(rawtext, top_n=5):
     #print("Summarize Text: \n", ". ".join(summarize_text))
     return summarize_text
 
-# This was a trail for abstractive summarization using transformers which works well but too slow
+# This was a trial for abstractive summarization using transformers which works well but too slow
 # def abstractive(rawtext):
 #    summarizer = pipeline("summarization")
 #    summary = summarizer(rawtext, max_length=300,
