@@ -1,6 +1,7 @@
 # Text_Summarization
 Text summarizer(Extractive method) with nltk and streamlit
 
+Try it yourself: https://share.streamlit.io/jiteshrawat/text_summarization/main/main.py
 
 ![Screenshot (137)](https://user-images.githubusercontent.com/73243338/122745180-5e187f80-d2a6-11eb-9ee2-1a37ba965ef8.png)
 
