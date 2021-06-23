@@ -109,9 +109,9 @@ with body:
     sample = sample_col.selectbox('Or select a sample file',
                                   ('kalam_speech.txt', 'Stocks_ FRI_ JUN _8.txt', 'microsoft.txt', 'None'), index=3)
     if sample != 'None':
-        file = open(sample, "r")
-        st.write(file)
-        #rawtext = str(file.read(), 'cp1252')
+        file = open(sample, "r", encoding= 'cp1252')
+        #st.write(file)
+        rawtext = file.read()
 
     upload_col.header('Or upload text file here')
     uploaded_file = upload_col.file_uploader(
