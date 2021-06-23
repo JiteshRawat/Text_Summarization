@@ -1,5 +1,5 @@
 # Text_Summarization
-Text summarizer(Extractive method) with nltk and streamlit
+Text summarizer(Extractive method) with nltk and streamlit while learning NLP.
 
 Try it yourself: https://share.streamlit.io/jiteshrawat/text_summarization/main/main.py
 
