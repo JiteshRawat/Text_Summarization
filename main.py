@@ -1,6 +1,7 @@
 from os import write
 import streamlit as st
 import nltk
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 from nltk.cluster.util import cosine_distance
 import numpy as np
@@ -109,7 +110,7 @@ with body:
                                   ('kalam_speech.txt', 'Stocks_ FRI_ JUN _8.txt', 'microsoft.txt', 'None'), index=3)
     if sample != 'None':
         file = open(sample, "r")
-        rawtext = file.read()
+        rawtext = str(file.read(), 'cp1252')
 
     upload_col.header('Or upload text file here')
     uploaded_file = upload_col.file_uploader(
